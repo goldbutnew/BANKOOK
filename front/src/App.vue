@@ -30,7 +30,9 @@
         </div>
       </div>
     </nav>
-    <div>
+
+    
+    <div class="main-view">
       <RouterView />
     </div>
     <footer>
@@ -70,9 +72,18 @@ const logout = () => {
 	position: relative;
 }
 
+.main-view{    
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* max-width: 80%; */
+  /* margin: 0 auto; */
+  /* height: 100vh; */
+}
+
 footer{
-  margin-top: 50px;
-  padding-top: 20px;
+  /* margin-top: 50px; */
+  /* padding-top: 20px; */
   padding-bottom: 20px;
 	bottom: 0px;
 	position: relative;

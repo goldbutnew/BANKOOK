@@ -34,9 +34,9 @@
       </div>
       <p class="info">* 엔화, 인도네시아 루피아는 100단위, 나머지는 모두 1단위</p>
     </div>
-    <div class="exchange-table">
+    <!-- <div class="exchange-table">
       <iframe src="https://kr.widgets.investing.com/live-currency-cross-rates?theme=lightTheme&hideTitle=true&roundedCorners=true&pairs=13926,13925,13927,1915,13923,13924,1918,1919,1031410,1920,1921,1922,14486,1925,1926,13922,1928,1089823" width="100%" height="100%" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"></div>
-    </div>
+    </div> -->
   </div>
 </template>
 

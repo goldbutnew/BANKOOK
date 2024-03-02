@@ -139,4 +139,9 @@ button {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.router-link {
+    text-decoration: none;
+}
+
 </style>

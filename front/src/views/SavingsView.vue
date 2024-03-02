@@ -101,4 +101,8 @@ const getOptionIntr2 = (product, savetrm) => {
   font-size: small;
 }
 
+table {
+  font-size: small;
+}
+
 </style>

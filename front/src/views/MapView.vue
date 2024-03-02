@@ -61,6 +61,7 @@
   
   
     <div id="map"></div>
+    
   </div>
 </template>
   
@@ -113,6 +114,9 @@
   import { baseCompile } from '@vue/compiler-core'
   const language = inject('language',ref(''))
   console.log(language)
+
+
+  // 행정구역 api
 
   export default {
   name: "KakaoMap", // 컴포넌트 이름 지정
@@ -210,11 +214,13 @@
     }, 
 
     
+    //// map api 시작지점 
+
     loadScript() {
       const script = document.createElement("script");
       script.src =
         // "//dapi.kakao.com/v2/maps/sdk.js?appkey=b63dd7cc18d4a3f04b7d7d4d212ffc38&libraries=services&autoload=false"; 
-        "//dapi.kakao.com/v2/maps/sdk.js?appkey=446b7caced64ca3ed637bd373f449f42&libraries=services&autoload=false"; 
+        "//dapi.kakao.com/v2/maps/sdk.js?appkey=7f16cec9b18d0ea7458ab10676bc25e4&libraries=services&autoload=false"; 
       script.onload = () => window.kakao.maps.load(this.loadMap); 
       document.head.appendChild(script);
     },
@@ -226,7 +232,7 @@
         level: 3
       };
   
-      var map = new window.kakao.maps.Map(container, options);
+      let map = new window.kakao.maps.Map(container, options);
   
       // 초기에 설정해둔 지도의 중심좌표를 마커로 표시할 거임.
       var marker = new window.kakao.maps.Marker({
@@ -320,7 +326,10 @@ searchPlace() {
 
 
     }
+
+    
 }
   }
   };
+  
   </script>
