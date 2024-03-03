@@ -85,7 +85,11 @@
 
 * 자유게시판
   <table>
-    <tr>아티클 관련</tr>
+    <tr>
+      <td>
+        <strong>아티클 관련</strong>
+      </td>
+    </tr>
     <tr>
       <td>
         <img src="img/bankook_community.png" width="100%" />
@@ -100,7 +104,11 @@
         <img src="img/bankook_community_detail.png" width="100%" />
       </td>
     </tr>
-    <tr>코멘트 관련</tr>
+    <tr>
+      <td>
+        <strong>코멘트 관련</strong>
+      </td>
+    </tr>
     <tr>
       <td>
         <img src="img/bankook_community_comment.png" width="100%" />
@@ -109,23 +117,35 @@
   </table>
 
 * 회원 정보 관련
-  <table>
-    <tr>유저 정보</tr>
-    <tr>
-      <td>
-        <img src="img/bankook_user.png" width="100%" />
-      </td>
-    </tr>
-    <tr>가입한 상품 정보</tr>
-    <tr>
-      <td>
-        <img src="img/bankook_user_join.png" width="100%" />
-      </td>
-    </tr>
-    <tr>상품 추천 받기</tr>
-    <tr>
-      <td>
-        <img src="img/bankook_user_recommend.png" width="100%" />
-      </td>
-    </tr>
-  </table>
+<table>
+  <tr>
+    <td>
+      <strong>유저 정보</strong>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="img/bankook_user.png" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>가입한 상품 정보</strong>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="img/bankook_user_join.png" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>상품 추천 받기</strong>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="img/bankook_user_recommend.png" width="100%" />
+    </td>
+  </tr>
+</table>
