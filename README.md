@@ -2,12 +2,13 @@
 
 
 ### 목차
-1. GOAL
-2. TECH STACK 
-3. API
-4. Prototype
-5. ERD
-6. 역할분담
+1. [GOAL](#oal)
+2. [TECH STACK](#tech-stack)
+3. [API](#api)
+4. [Prototype](#prototype)
+5. [ERD](#erd)
+6. [역할분담](#역할분담)
+7. [서비스 화면](#서비스-화면)
 ---
 
 ### 📌 GOAL
@@ -37,4 +38,94 @@
 * 이금현: 메인페이지, 근처은행검색, 자유게시판CRUD, CSS 및 UI/UX Design
 * 김도훈: 회원커스터마이징, 금융상품비교, 환율계산기, 로그인 기능, 프로필페이지
 
-### 기능
+### 🎙 서비스 화면
+* 메인페이지
+  <table>
+    <tr>
+      <td>
+        <img src="img/bankook_main.png" width="100%" />
+      </td>
+    </tr>
+  </table>
+
+* 금융상품비교
+  <table>
+    <tr>
+      <td>
+        <img src="img/bankook_compare.png" width="100%" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="img/bankook_compare_saving.png" width="100%" />
+      </td>
+      <td>
+        <img src="img/bankook_compare_join.png" width="100%" />
+      </td>
+    </tr>
+  </table>
+
+* 환율계산기
+  <table>
+    <tr>
+      <td>
+        <img src="img/bankook_exchange.png" width="100%" />
+      </td>
+    </tr>
+  </table>
+
+* 근처은행검색
+  <table>
+    <tr>
+      <td>
+        <img src="img/bankook_map.png" width="100%" />
+      </td>
+    </tr>
+  </table>
+
+* 자유게시판
+  <table>
+    <tr>아티클 관련</tr>
+    <tr>
+      <td>
+        <img src="img/bankook_community.png" width="100%" />
+      </td>
+    </tr>
+    <tr></tr>
+    <tr>
+      <td>
+        <img src="img/bankook_community_create.png" width="100%" />
+      </td>
+      <td>
+        <img src="img/bankook_community_detail.png" width="100%" />
+      </td>
+    </tr>
+    <tr>코멘트 관련</tr>
+    <tr>
+      <td>
+        <img src="img/bankook_community_comment.png" width="100%" />
+      </td>
+    </tr>
+  </table>
+
+* 회원 정보 관련
+  <table>
+    <tr>유저 정보</tr>
+    <tr>
+      <td>
+        <img src="img/bankook_user.png" width="100%" />
+      </td>
+    </tr>
+    <tr>가입한 상품 정보</tr>
+    <tr>
+      <td>
+        <img src="img/bankook_user_join.png" width="100%" />
+      </td>
+    </tr>
+    <tr>상품 추천 받기</tr>
+    <tr>
+      <td>
+        <img src="img/bankook_user_recommend.png" width="100%" />
+      </td>
+    </tr>
+  </table>
