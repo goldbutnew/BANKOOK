@@ -11,7 +11,7 @@
       <ArticleList />
     </div>
     
-    <div style="margin-bottom: 50px;">
+    <div class="create-article">
       <RouterLink :to="{ name: 'create' }">
         <button class="btn btn-light float-right">글작성</button>
       </RouterLink>
@@ -63,6 +63,10 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.create-article {
+  margin-top: 10px;
 }
 
 </style>

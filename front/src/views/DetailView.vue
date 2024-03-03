@@ -32,10 +32,12 @@
       <CreateComment @create=""/>
       <CommentList />
     </div>
-    <div style="text-decoration: none;">
-      <RouterLink :to="{ name: 'community' }">
-        <p style="margin-top: 10px; text-align: center; font-size: medium; text-decoration: none; color: black">목록</p>
-      </RouterLink>
+    <div class="list-container">
+      <div class="list-text-container">
+        <RouterLink :to="{ name: 'community' }">
+          <p class="btn btn-light list-text">목록</p>
+        </RouterLink>
+      </div>
     </div>
   </div>
 </template>
@@ -142,6 +144,23 @@ button {
 
 .router-link {
     text-decoration: none;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.list-text-container {
+  text-decoration: none;
+}
+
+.list-text {
+  text-align: center;
+  font-size: medium;
+  margin-top: 10px;
+  color: black;
 }
 
 </style>

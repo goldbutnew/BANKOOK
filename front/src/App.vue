@@ -62,6 +62,13 @@ const logout = () => {
 </script>
 
 <style scoped>
+/* Google Fonts 링크 추가 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
 .container {
   padding-top: 20px;
   padding-bottom: 20px;

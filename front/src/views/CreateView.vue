@@ -19,15 +19,12 @@
         </div>
       </div>
     </form>
-    <input class="btn btn-light float-right" type="submit" @click="createArticle">
-  </div>
-
-  <!-- <input type="button" value="BACK" onClick="history.go(-1)">  -->
-
-  <div class="list-container" style="text-decoration: none;">
-    <RouterLink :to="{ name: 'community' }">
-      <p class="list-text" style="margin-top: 10px; text-align: center; font-size: medium; text-decoration: none; color: black">목록</p>
-    </RouterLink>
+    <input class="btn btn-light float-right" style="margin-top: 10px;" type="submit" @click="createArticle">
+    <div class="list-container">
+      <RouterLink :to="{ name: 'community' }">
+        <p class="btn btn-light list-text">목록</p>
+      </RouterLink>
+    </div>
   </div>
 
 </template>
@@ -46,16 +43,6 @@ const title = ref(null)
 const content = ref(null)
 const store = useCounterStore()
 const router = useRouter()
-
-// const editorOptions = {
-//     modules: {
-//       toolbar: [
-//         ['bold', 'italic', 'underline', 'strike'],      // add the formatting options you want
-//         ['link', 'image', 'video'],
-//         ['clean'],
-//       ],
-//     },
-//   };
 
 
 const createArticle = function () {
@@ -121,8 +108,10 @@ const createArticle = function () {
 }
 
 .list-container {
+  padding-top: 30px;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 20px; /* Add margin-top for spacing */
 }
 
