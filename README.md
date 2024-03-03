@@ -1,13 +1,13 @@
 # 내 입맛대로 금융을 요리하다, BANKOOK
 
 ## 목차
-1. [GOAL](#📌-GOAL)
-2. [TECH STACK](#💻-TECH-STACK)
-3. [API](#📚-API)
-4. [Prototype](#🎨-Prototype-(Kakao-Oven))
-5. [ERD](#⚙-ERD-(django-extentions-graph_models))
-6. [역할분담](#👫-역할분담-(기능으로-분담))
-7. [서비스 화면](#🎙-서비스-화면 )
+1. [GOAL](#-goal)
+2. [TECH STACK](#-tech-stack)
+3. [API](#-api)
+4. [Prototype](#-prototype-kakao-oven)
+5. [ERD](#-erd-django-extentions-graph_models)
+6. [역할분담](#-역할분담-기능으로-분담)
+7. [서비스 화면](#-서비스-화면 )
 
 <br>
 
